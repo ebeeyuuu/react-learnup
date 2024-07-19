@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <div className="scroll-smooth">
       <NavBar />
-      <div className="relative w-full h-[100vh] max-md:h-[500px] transition-all duration-300 ease-in-out">
-        <Image 
-          src={image2} 
-          alt="image" 
-          layout="fill" 
-          objectFit="cover" 
-          className="transition-all duration-300 ease-in-out"
-        />
-      </div>
+        <div className="relative w-full h-[100vh] max-[900px]:h-[500px] transition-all duration-300 ease-in-out">
+          <Image 
+            src={image2} 
+            alt="image" 
+            layout="fill" 
+            objectFit="cover" 
+            className="transition-all duration-300 ease-in-out"
+          />
+        </div>
     </div>
   );
 }
