@@ -72,7 +72,7 @@ const SignUp = () => {
             </div>
             <RiArrowGoBackLine className="mt-[6px]"/>
           </Link>
-          <Link href="/pages/signup" className="text-lg font-medium flex flex-row bg-[#19bd7e] text-white rounded-[10px] px-4 py-2 h-[45px]">
+          <Link href="/pages/signup" className="text-lg font-medium flex flex-row bg-[#0a8958] text-white rounded-[10px] px-4 py-2 h-[45px]">
             <div className="mt-[1px]">
               Submit
             </div>
