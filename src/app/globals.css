@@ -10,7 +10,7 @@
 
 body {
   -ms-overflow-style: none;
-  scrolbar-width: 0px;
+  scrollbar-width: 0px;
   background: #020202;
   color: white;
 }
