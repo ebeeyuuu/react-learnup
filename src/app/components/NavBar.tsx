@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-center items-center w-full">
-      <nav className="w-full h-[100px] flex justify-between items-center px-8 py-4 bg-[#042015]  shadow-2xl shadow-black">
+      <nav className="w-full h-[100px] flex justify-between items-center px-8 py-4 bg-[#042015] shadow-2xl shadow-black">
         <Link href="/" className="text-xl font-semibold">Home</Link>
         <div className="hidden md:flex flex-row gap-x-6">
           {navItems.map(({ href, label, icon: Icon, size }) => (

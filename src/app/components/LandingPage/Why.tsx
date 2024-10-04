@@ -4,10 +4,10 @@ import image3 from '@/images/3.jpg'
 
 const Why = () => {
   return (
-    <div className="w-full justify-center items-center flex max-[900px]:mt-[300px] mt-[500px]">
+    <div className="w-full justify-center items-center flex max-[900px]:mt-[150px] mt-[500px]">
       <div className="grid grid-rows-2 grid-cols-3 gap-5 w-[85vw] h-[50vh] max-w-[1500px] max-[900px]:grid-cols-2 max-[700px]:grid-cols-1 max-[900px]:grid-rows-3 max-[700px]:grid-rows-6 transition-all duration-200 ease-in-out max-[700px]:h-[100vh]">
         <div 
-        className="max-[900px]:text-2xl font-semibold text-4xl transition-all duration-300 ease-in-out p-10 border-[4.5px] border-[#782109] rounded-[10px] flex justify-center items-center"
+        className="max-[900px]:text-2xl font-semibold text-4xl transition-all duration-300 ease-in-out p-10 border-[4.5px] border-[#ee4d20] rounded-[10px] flex justify-center items-center"
         style={{
           backgroundImage: `url(${image3.src})`,
           backgroundSize: 'cover',
